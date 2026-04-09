@@ -43,7 +43,7 @@ export default function ProblemsSection() {
         {/* Mobile & Tablet View (2 Column Masonry-style Flex) */}
         <div className="flex lg:hidden gap-2 sm:gap-3 md:gap-6 px-2 sm:px-3 md:px-6 pb-[100px] md:pb-[140px] w-full">
           {/* Left Column (0, 2) */}
-          <div className="flex flex-col gap-28 sm:gap-32 md:gap-36 flex-1">
+          <div className="flex flex-col gap-28 sm:gap-32 md:gap-36 flex-1 max-h-[250px] md:max-h-[400px]">
             {[0, 2].map((idx) => {
               const problem = problems[idx];
               return (

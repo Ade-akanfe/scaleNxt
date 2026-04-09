@@ -18,8 +18,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/30 z-10" />
 
       {/* Content */}
-      <div className="relative z-20 w-full max-w-[1400px] mx-auto px-8 lg:px-12 text-white pt-16 md:pt-24 lg:pt-28">
-        <div className="max-w-[1000px] space-y-6 animate-fade-in">
+      <div className="relative z-20 w-full max-w-[1400px] mx-auto px-8 lg:px-12 text-white pt-0 md:pt-22 lg:pt-24">
+        <div className="max-w-[1000px] space-y-4 md:space-y-6 animate-fade-in">
           <h1 className="text-[38px] md:text-[56px] lg:text-[68px] font-bold leading-[1.1] tracking-[-0.02em]">
             Most African Businesses will<br className="hidden sm:block" /> not outlive their founders
           </h1>
@@ -27,7 +27,7 @@ export default function Hero() {
             Growth without systems created momentum, not institutions. Scale NXT exists to help
             <br className="hidden sm:block" /> African businesses survive scale, leadership transition and time
           </p>
-          <div className="flex flex-row gap-3 md:gap-5 pt-6 w-full max-w-[100vw] overflow-x-auto sm:overflow-visible">
+          <div className="flex flex-row gap-3 md:gap-5 pt-3 md:pt-6 w-full max-w-[100vw] overflow-x-auto sm:overflow-visible">
             <button className="px-4 py-3 md:px-9 md:py-4 bg-white text-[#041E42] font-bold text-[12px] md:text-[15px] rounded-[6px] border border-white hover:bg-transparent hover:text-white transition-all duration-300 shrink-0">
               Start the Diagnostic
             </button>
