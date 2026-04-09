@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://scalenxt.com
+
+# Sitemaps
+Sitemap: https://scalenxt.com/sitemap.xml

@@ -72,9 +72,9 @@ export default function Footer() {
 
           {/* Col 2 */}
           <div className="space-y-3 sm:space-y-5 md:space-y-8 flex flex-col pl-1 sm:pl-2 lg:pl-10">
-            <Link href="#" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">Who Are We</Link>
-            <Link href="#" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">What we do</Link>
-            <Link href="#" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">How We Work</Link>
+            <Link href="/who-we-are" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">Who Are We</Link>
+            <Link href="#what-we-do" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">What we do</Link>
+            <Link href="#how-we-work" className="text-[9px] sm:text-[11px] md:text-[15px] font-bold text-white hover:text-gray-300 transition-colors whitespace-nowrap">How We Work</Link>
           </div>
 
           {/* Col 3 */}
